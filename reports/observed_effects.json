@@ -1,0 +1,9 @@
+{
+ "is_holiday": -16.2,
+ "is_exam_period": 7.1,
+ "is_vacation": -44.8,
+ "is_event": 7.6,
+ "special_dish": 5.6,
+ "weekend": -10.4,
+ "rain_gt5": 4.8
+}

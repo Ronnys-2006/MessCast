@@ -1,0 +1,33 @@
+{
+  "Baseline": {
+    "MAE": 58.667,
+    "RMSE": 75.686,
+    "MAPE": 8.248
+  },
+  "Naive (yesterday)": {
+    "MAE": 60.696,
+    "RMSE": 78.444,
+    "MAPE": 8.838
+  },
+  "Linear Regression": {
+    "MAE": 24.615,
+    "RMSE": 30.882,
+    "MAPE": 3.652
+  },
+  "Random Forest": {
+    "MAE": 26.802,
+    "RMSE": 35.68,
+    "MAPE": 3.893
+  },
+  "Gradient Boosting": {
+    "MAE": 24.071,
+    "RMSE": 31.797,
+    "MAPE": 3.539
+  },
+  "Deep MLP": {
+    "MAE": 25.859,
+    "RMSE": 35.102,
+    "MAPE": 3.785
+  },
+  "best_model": "Gradient Boosting"
+}

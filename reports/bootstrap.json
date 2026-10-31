@@ -1,0 +1,37 @@
+{
+ "Deep MLP minus Gradient Boosting": {
+  "mean_diff": 2.28,
+  "ci95": [
+   -2.5,
+   7.0
+  ]
+ },
+ "Linear Regression minus Gradient Boosting": {
+  "mean_diff": 1.03,
+  "ci95": [
+   -2.3,
+   4.4
+  ]
+ },
+ "Random Forest minus Gradient Boosting": {
+  "mean_diff": 3.22,
+  "ci95": [
+   -0.4,
+   6.9
+  ]
+ },
+ "Baseline minus Gradient Boosting": {
+  "mean_diff": 35.09,
+  "ci95": [
+   24.2,
+   46.3
+  ]
+ },
+ "Deep MLP minus Baseline": {
+  "mean_diff": -32.81,
+  "ci95": [
+   -45.4,
+   -20.3
+  ]
+ }
+}

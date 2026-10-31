@@ -1,0 +1,51 @@
+{
+  "rows": 450,
+  "columns": 17,
+  "duplicates": 0,
+  "missing": {
+    "plates_served": 9,
+    "leftover_plates": 9,
+    "leftover_kg": 9,
+    "shortage_plates": 9
+  },
+  "dtypes": {
+    "date": "str",
+    "day_of_week": "str",
+    "meal": "str",
+    "menu_item": "str",
+    "special_dish": "int64",
+    "is_holiday": "int64",
+    "is_exam_period": "int64",
+    "is_vacation": "int64",
+    "is_event": "int64",
+    "temperature_c": "float64",
+    "rain_mm": "float64",
+    "hostel_strength": "int64",
+    "plates_prepared": "int64",
+    "plates_served": "float64",
+    "leftover_plates": "float64",
+    "leftover_kg": "float64",
+    "shortage_plates": "float64"
+  },
+  "date_min": "2025-08-04",
+  "date_max": "2025-12-31",
+  "n_days": 150,
+  "train": {
+    "rows": 315,
+    "from": "2025-08-04",
+    "to": "2025-11-16",
+    "usable_rows_after_lag_drop": 294
+  },
+  "val": {
+    "rows": 66,
+    "from": "2025-11-17",
+    "to": "2025-12-08",
+    "usable_rows_after_lag_drop": 66
+  },
+  "test": {
+    "rows": 69,
+    "from": "2025-12-09",
+    "to": "2025-12-31",
+    "usable_rows_after_lag_drop": 69
+  }
+}

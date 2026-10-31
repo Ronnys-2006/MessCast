@@ -1,0 +1,27 @@
+{
+  "Normal day": {
+    "n": 48,
+    "model_MAE": 22.285572084291534,
+    "baseline_MAE": 58.104166666666664
+  },
+  "Exam period": {
+    "n": 15,
+    "model_MAE": 24.856670565783187,
+    "baseline_MAE": 51.53333333333333
+  },
+  "Holiday": {
+    "n": 3,
+    "model_MAE": 32.74621811743314,
+    "baseline_MAE": 115.33333333333333
+  },
+  "Event": {
+    "n": 3,
+    "model_MAE": 40.02558626047213,
+    "baseline_MAE": 46.666666666666664
+  },
+  "Special dish": {
+    "n": 17,
+    "model_MAE": 28.38643046437599,
+    "baseline_MAE": 62.64705882352941
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "cv_mae": {
+    "Linear Regression": 65.0203608929853,
+    "Random Forest": 61.82487006060903,
+    "Gradient Boosting": 57.39976101636344,
+    "Deep MLP": 82.35631735037292,
+    "Baseline": 118.84027777777779,
+    "Naive (yesterday)": 81.0989898989899
+  },
+  "params": {
+    "Linear Regression": {},
+    "Random Forest": {
+      "n_estimators": 200,
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 8
+    },
+    "Gradient Boosting": {
+      "subsample": 1.0,
+      "n_estimators": 400,
+      "min_samples_leaf": 6,
+      "max_depth": 3,
+      "learning_rate": 0.1
+    },
+    "Deep MLP": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        64,
+        32,
+        16
+      ],
+      "alpha": 0.1
+    }
+  },
+  "per_meal": {
+    "Baseline": {
+      "Breakfast": {
+        "MAE": 37.43478260869565,
+        "RMSE": 50.86512429519088,
+        "MAPE": 7.263701735105451
+      },
+      "Lunch": {
+        "MAE": 74.78260869565217,
+        "RMSE": 89.99516895246438,
+        "MAPE": 9.686743018569224
+      },
+      "Dinner": {
+        "MAE": 63.78260869565217,
+        "RMSE": 80.6158361829626,
+        "MAPE": 7.7923787887739
+      }
+    },
+    "Naive (yesterday)": {
+      "Breakfast": {
+        "MAE": 55.130434782608695,
+        "RMSE": 68.81733856345014,
+        "MAPE": 10.708173067002267
+      },
+      "Lunch": {
+        "MAE": 55.04347826086956,
+        "RMSE": 72.68394954691944,
+        "MAPE": 6.9505585599322846
+      },
+      "Dinner": {
+        "MAE": 71.91304347826087,
+        "RMSE": 91.87941057144697,
+        "MAPE": 8.856601631864635
+      }
+    },
+    "Linear Regression": {
+      "Breakfast": {
+        "MAE": 23.281984002645423,
+        "RMSE": 28.386764743657572,
+        "MAPE": 4.583123892849877
+      },
+      "Lunch": {
+        "MAE": 25.007670949289608,
+        "RMSE": 33.93680308848591,
+        "MAPE": 3.238248279835126
+      },
+      "Dinner": {
+        "MAE": 25.55446542429792,
+        "RMSE": 30.060237411295372,
+        "MAPE": 3.135205041765834
+      }
+    },
+    "Random Forest": {
+      "Breakfast": {
+        "MAE": 21.199952201156197,
+        "RMSE": 24.20867982370831,
+        "MAPE": 4.115345927432885
+      },
+      "Lunch": {
+        "MAE": 30.23962188144109,
+        "RMSE": 45.454072545031224,
+        "MAPE": 3.987216812249543
+      },
+      "Dinner": {
+        "MAE": 28.965843528007735,
+        "RMSE": 34.16223227321668,
+        "MAPE": 3.5765663133586654
+      }
+    },
+    "Gradient Boosting": {
+      "Breakfast": {
+        "MAE": 21.79499377874426,
+        "RMSE": 27.88846885345257,
+        "MAPE": 4.249658460128754
+      },
+      "Lunch": {
+        "MAE": 26.4907655983593,
+        "RMSE": 38.318766211107196,
+        "MAPE": 3.4504238297808056
+      },
+      "Dinner": {
+        "MAE": 23.926107217090244,
+        "RMSE": 28.054354605086534,
+        "MAPE": 2.917048589079739
+      }
+    },
+    "Deep MLP": {
+      "Breakfast": {
+        "MAE": 23.91563213035057,
+        "RMSE": 29.87982437027355,
+        "MAPE": 4.678689597735045
+      },
+      "Lunch": {
+        "MAE": 26.274570724141956,
+        "RMSE": 38.589526653759684,
+        "MAPE": 3.3784348903807633
+      },
+      "Dinner": {
+        "MAE": 27.387164790089333,
+        "RMSE": 36.25637009043519,
+        "MAPE": 3.298474930241022
+      }
+    }
+  },
+  "importance_top10": {
+    "lag_1": 82.725,
+    "special_dish": 13.759,
+    "is_holiday": 8.843,
+    "menu_Dal Rice": 8.621,
+    "day_of_week_num": 7.432,
+    "meal_Dinner": 6.653,
+    "is_weekend": 4.599,
+    "meal_Breakfast": 4.114,
+    "menu_Upma": 3.201,
+    "is_exam_period": 3.149
+  },
+  "n_test_rows": 69,
+  "n_trainval_rows": 351
+}
